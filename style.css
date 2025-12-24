@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/*共通部分*/
+html {
+	font-size: 100%;
+}
+body {
+	background-color: #c3f2ff;
+	line-height: 1.7;
+	color: black;
+}
+.sub-title {
+	text-align: center;
+	font-size: 4rem;
+	padding: 7rem 0;
+}
+.cover {
+	background-size: cover;
+	background-position: center;
+	height: 650px;
+}
+
+/*ヘッダー*/
+.cover-header {
+	background-image: url(images/sky_header.webp);
+}
+.title  {
+	text-align: center;
+	font-size: 7rem;
+	padding-top: 15rem;
+}
+
+/*プロフィール*/
+.profile {
+	padding: 0 10rem;
+	gap: 5rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.text {
+	width: 400px;
+	line-height: 1.9;
+	border: 10px dotted black;
+	padding: 2rem;
+}
+img {
+	width: 15rem;
+	height: 13rem;
+	border-radius: 8px;
+}
+.img {
+	position: relative;
+	width: 32rem;
+	height: 28rem;
+}
+.img-amusement {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.img-food {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+/*スキル*/
+.skills {
+	display: flex;
+	gap: 3rem;
+	justify-content: space-around;
+}
+.list {
+	background-color: #ffffff;
+	list-style-position: inside;
+	border-radius: 17px;
+	padding: 2rem;
+	width: 550px;
+}
+.list-title {
+	font-size: large;
+	padding-bottom: 7px;
+}
+/*ワーク*/
+.link {
+	text-align: center;
+	font-size: 1.25rem;
+	text-decoration: none;
+	color: #691c0d;
+	background-color: #fff8cf;
+	border-radius: 20px;
+	padding: 1.5rem;
+	width: 250px;
+}
+.works {
+	display: flex;
+	justify-content: space-around;
+	padding: 0 3rem;
+}
+
+/*コンタクト*/
+.form {
+	font-size: 1.25rem;
+	line-height: 2;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 450px;
+	margin: 0 auto 10rem;
+}
+.input {
+	text-align: center;
+	border: 3px solid black;
+	border-radius: 16px;
+}
+.send {
+	text-align: center;
+	margin-top: 4rem;
+	border: 5px outset black;
+	border-radius: 16px;
+}
+
+/*フッター*/
+.cover-footer {
+	background-image: url(images/skywalk.webp);	
+}
+.title-footer {
+	text-align: center;
+	font-size: 6rem;
+	padding-top: 7rem;
+}
